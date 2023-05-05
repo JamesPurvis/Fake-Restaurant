@@ -51,19 +51,26 @@ body {
   margin-top: 10px;
 }
 
-.tiny-grid {
+.tiny-grid{
+  border: 1px solid rgba(0, 0, 0, 0.2);
   width: auto;
+  border-radius: 6%
 }
 .tiny-grid img {
   width: 100%;
   height: 25vh;
   object-fit: cover;
+  border-top-left-radius: 6%;
+  border-top-right-radius: 6%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 #ordernow {
-  background-color: rgba(239, 123, 14);
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(239, 123, 14);
+  border: 2px solid rgba(239, 123, 14);
   font-weight: bold;
-  border-color: white;
 }
 
 
